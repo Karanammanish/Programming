@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,td,th{
+                border: 5px;
+                border-style: double;
+                border-collapse: collapse;
+                border-color: blue;
+                padding: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><u>JavaScript Events</u></h2>
+        <button id="demo" onclick="d()">The time is?</button>
+        <script>
+            function d()
+            {
+                document.getElementById("demo").innerHTML = Date();
+            }
+            </script>
+            <h3>JavaScript Event Handler</h3>
+            <pre>Things that should be done every time a page loads
+            Things that should be done when the page is closed
+            Action that should be performed when a user clicks a button
+            Content that should be verified when a user inputs data
+            And more ...
+            Many different methods can be used to let JavaScript work with events:
+                
+            HTML event attributes can execute JavaScript code directly
+            HTML event attributes can call JavaScript functions
+            You can assign your own event handler functions to HTML elements
+            You can prevent events from being sent or being handled
+            And more ...
+            </pre>
+            <h3>Common HTML Events</h3>
+            <table>
+                <tr>
+                    <th>Events</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>onchange</td>
+                    <td>An HTML element has been changed</td>
+                </tr>
+                <tr>
+                    <td>onclick</td>
+                    <td>The user clicks an HTML element</td>
+                </tr>
+                <tr>
+                    <td>onmouseover</td>
+                    <td>The user moves the mouse over an HTML element</td>
+                </tr>
+                <tr>
+                    <td>onmouseout</td>
+                    <td>The user moves the mouse away from an HTML element</td>
+                </tr>
+                <tr>
+                    <td>onkeydown</td>
+                    <td>The user pushes a keyboard key</td>
+                </tr>
+                <tr>
+                    <td>onload</td>
+                    <td>The browser has finished loading the page</td>
+                </tr>
+            </table> 
+
+    </body>
+</html>

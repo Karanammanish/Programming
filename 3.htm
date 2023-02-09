@@ -1,0 +1,18 @@
+<html lang="en">
+  <head>
+    <title>Write example</title>
+
+    <script>
+      function newContent() //function 
+       {
+        document.open(); //To load the page.
+        document.write("<h1>Out with the old, in with the new!</h1>");
+        document.close(); //To say that the page loaded
+      }
+    </script>
+  </head>
+
+  <body onload="newContent();">
+    <p>Some original document content.</p>
+  </body>
+</html>

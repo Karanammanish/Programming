@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            /*4 ways to declare a JavaScript varable:
+            1. var
+            2. let 
+            3. const
+            4. using nothing
+            */
+            var a = 5;
+            var b = "Manish";
+            console.log(b)
+            let c = 6;
+            let d = "Pooja";//let and const keywords were added to JS  in 2015
+            const x = 7, y = 8;
+            let total = x + y;
+            console.log(total);
+        </script>
+    </head>
+    <body>
+        <h1>Variable</h1>
+        <h6>"let" and "const" keywords were added in JS in 2015</h6>
+        <p>one Statement can have many Varaible</p>
+        <p>value declared without a value will have the value undefined.</p>
+        <pre>About the dolar"$" sign in JS
+        1.Scine the dolar sign in JS treats 
+        it as letter, identifier containing "$" are valid variable.            
+        </pre>
+        <br>
+        <p id="sum"></p>
+        <script>
+            let $ = "hello world";
+            let $$$ = 2;
+            let $myMoney = 5;
+            var sum = $$$ + $myMoney;
+            console.log(sum);
+            document.getElementById("sum").innerHTML = sum;
+        </script>
+        <br>
+        <p>Let and Const are "Block Scope".</p>
+        <p>Const cannot be reassigned.</p>
+    </body>
+</html>
