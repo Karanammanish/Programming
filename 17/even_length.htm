@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../17/17.js"></script>
+        <style>
+            table,th,td{
+                border: 5px;
+                border-style: solid;
+                border-collapse: collapse;
+                border-color: aqua;
+                padding: 30px;
+                border-spacing: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="enter">Enter the sentence</label>
+            <input type="text" id="enter"><br><br>
+            <input type="button" onclick="even()" value="even">
+            <input type="reset" value="Reset">
+        </form>
+        <br><br>
+        <table>
+            <tr>
+                <th>String</th>
+                <th>length</th>
+                <th>Even/Odd</th>
+                <th>Output</th>
+            </tr>
+            <tr>
+                <td id="w"></td>
+                <td id="l"></td>
+                <td id="e"></td>
+                <td id="output"></td>
+            </tr>
+        </table>
+    </body>
+</html>

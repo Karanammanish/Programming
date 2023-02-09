@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <form>
+                <label for="num">Enter the Number</label>
+                <input type="number" id="num"><br> 
+                <input type="button" onclick="see()" value="Difference"><br>
+                <input type="reset" value="RESET">
+            </form>
+            <p>Ans:</p>
+            <p id="diff"></p>
+            <script>
+                function see(){
+                n = document.getElementById("num").value;
+                let d = n - 13;
+                console.log(d)
+                if (d > 13){
+                    document.getElementById("diff").innerHTML = 2 * d;
+                }
+                else{
+                    document.getElementById("diff").innerHTML = d;
+                }
+            }
+            </script>
+        </body>
+    </head>
+</html>

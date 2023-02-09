@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../10/10.js"></script>
+        <style>
+            table,td,th{
+                border: 5px;
+                border-style: solid;
+                border-color: aquamarine;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h3>TO check wheather the word start with "Java"</h3>
+        </header>
+        <section>
+            <div>
+                <form>
+                    <label for="w1">Enter the word:</label>
+                    <input type="text" id="w1"><br><br>
+                    <input type="button" onclick="java()" value="Check">
+                    <input type="reset" value="Reset"><br><br>
+                </form>
+            </div>
+        </section>
+        <article>
+            <div>
+                <table>
+                    <tr>
+                        <th>Enter word</th>
+                        <th>True/False</th>
+                    </tr>
+                    <tr>
+                        <td id="ask"></td>
+                        <td id="ans"></td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <aside>
+            <p><b>'<snap id="a"></snap>' to check the word</b></p>
+            <p id="i"></p>
+        </aside>
+    </body>
+</html>

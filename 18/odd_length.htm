@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../18/18.js"></script>
+        <style>
+            table,td,th{
+                border: 5px;
+                border-style: solid;
+                border-color: black;
+                border-collapse: collapse;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="word"><b>Enter the word:</b></label>
+            <input type="text" id="word"><br><br>
+            <input type="button" onclick="odd()" value="Check">
+            <input type="reset" value="reset">
+        </form>
+        <br><br>
+        <table>
+            <tr>
+                <th>String</th>
+                <th>length of string</th>
+                <th>Odd/Even</th>
+                <th>Output</th>
+            </tr>
+            <tr>
+                <td id="s"></td>
+                <td id="l"></td>
+                <td id="o"></td>
+                <td id="output"></td>
+            </tr>
+        </table>
+    </body>
+</html>

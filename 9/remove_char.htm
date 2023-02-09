@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../9/9.js"></script>
+        <style>
+            table,td,th{
+                border: 2px;
+                border-style: solid;
+                background-color: aqua;
+                color: darkred;
+                border-color: black;
+                padding: 10px;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="word">Enter the word:</label>
+            <input type="text" id="word"><br><br>
+            <label for="num">Enter the number:</label>
+            <input id="num" type="number"><br><br>
+            <input type="button" onclick="Remove()" value="Remove">
+            <input type="reset" value="Reset">
+        </form>
+        <br> 
+        <table>
+            <tr>
+                <th>Word</th>
+                <th>Position</th>
+                <th>New word</th>
+            </tr>
+            <tr>
+                <td><span id="war"></span></td>
+                <td><span id="num1"></span></td>
+                <td><span id="war1"></span></td>
+            </tr>
+        </table>
+    </body>
+</html>
