@@ -1,0 +1,29 @@
+/* HEADER STYLING */
+
+header {
+    margin-top: -50px;
+}
+
+div.heading{
+    text-align: center;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+}
+
+
+/* SECTION STYLING */
+section{
+    background-image: url("./Images/1.webp");
+    background-size: 100% 100%;
+    margin-top: -55px
+}
+
+div.credential{
+    text-align:center;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    margin-left: auto;
+}
